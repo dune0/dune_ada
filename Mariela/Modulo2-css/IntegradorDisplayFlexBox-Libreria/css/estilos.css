@@ -1,0 +1,135 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	margin: auto;
+	width: 90%;
+	height: auto;
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	background: #e74c3c;
+}
+
+
+.secciones{
+	float: left;
+}
+
+
+.secciones a, span{
+	font-size: 30px;
+	color: #DCE4C3;
+	text-decoration: none;
+	font-family: HarryPotter;
+	margin: 5px;
+}
+
+.busqueda{
+	line-height: 50px;
+	float: right;
+	display: inline-block;
+}
+
+.texto{
+	width: 300px;
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+}
+.botondebusqueda{
+	padding: 3px;
+	margin-right: 5px;
+	border-radius: 5px;
+
+}
+.blank{
+	width: 100%;
+	height: 20px;
+	background: #2980b9;
+}
+.main{
+	width: 100%;
+	background: #c79700;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.libro{
+	width: 250px;
+	background-color: #196f3d;
+	padding: 10px 20px;
+	margin: 20px;
+}
+
+figure img{
+	width: 100%;
+}
+
+@font-face {
+	font-family: HarryPotter;
+	src: url(Fuente/HarryPotter.ttf) format('truetype')
+}
+
+h1{
+	font-size: 30px;
+	font-family: HarryPotter;
+    margin-bottom: 5px;
+}
+
+p{
+	font-size: 15px;
+	text-align: left;
+}
+
+.button{
+    background-color: #DAA520;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 15px;
+    cursor:pointer;
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	background: #e74c3c;
+}
+
+footer p{
+	font-family: HarryPotter;
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 10px;
+	padding: 15px 15px;
+}
+
+@media all and (max-width: 515px){
+	nav{
+		height: 70px;
+	}
+	.links{
+		line-height: 40px;
+		float: none;
+	}
+	.texto{
+		width: 130px;
+	}
+    .botondebisqueda{
+		line-height: 20px;
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	footer {
+		height: 80px;
+	}
+}
+

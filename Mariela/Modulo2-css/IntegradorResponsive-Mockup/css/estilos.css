@@ -1,0 +1,95 @@
+*{
+	box-sizing: border-box; 
+	margin-top: 20px;
+}
+
+body{
+	width: 90%;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+header{
+	width: 100%;
+	background: #8769b6;
+	height: 80px;
+	display: inline-block;
+}
+
+nav a, span {
+	text-decoration: none;
+	font-size: 20px;
+	color: #a8aedd;
+	margin: 10px;
+}
+
+header img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 5%;
+    right: 5%;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+	background: #88d4c3;
+	text-align: center;
+}
+
+.mochila{
+	display: inline-block;
+	margin: 20px;
+}
+
+ .mochila img {
+ 	width: 200px;
+ 	height: 200px;
+ }
+
+ .mochila p{
+ 	width: auto;
+ 	font-family: serif;
+ 	font-size: 15px;
+ 	color: #400e63;
+ 	text-align: center;
+ 	background-color: #b6f486;
+ }
+
+
+
+@media all and (max-width: 480px){
+	header{
+		width: 100%;
+	}
+.container{
+		width: 100%;
+		margin: auto;
+	}
+
+header img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 3%;
+    right: 5%;
+}
+
+nav a, span {
+	text-decoration: none;
+	font-size: 13px;
+	color: #a8aedd;
+	margin: 3px;
+}
+
+.mochila{
+		width: 100%;
+		display: block;
+		margin: 10px 0px;
+	}
+.mochila img{
+		height: 180px;
+	}
+
+}

@@ -1,0 +1,88 @@
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+    width: 40%;
+    margin: auto;
+}
+
+.container{
+	width: 100%;
+	text-align: center;
+	border: 5px solid pink;
+}
+
+.fotos{
+	position: relative;
+	margin: 10px;
+}
+
+.profilepic{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	border: solid 3px #e397ac;
+}
+
+.flagpic{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: solid 2px #ffcccc;
+    background-size: 100% auto;
+    position: absolute;
+    top: 80%;
+    right: 33%;
+}
+
+.nombres{
+	font-family: sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+h1{
+	color: #660066;
+	font-size: 20px;
+}
+
+h2{
+	color: #ff6666;
+	font-size: 17px;
+}
+
+.texto{
+	font-size: 15px;
+	color: #ffb6c1;
+	font-family: serif;
+	text-align: center;
+	padding: 10px;
+}
+
+.redes img{
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+}
+
+@media (max-width: 600px){
+.profilepic{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	border: solid 3px #e397ac;
+}
+
+.flagpic{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: solid 2px #ffcccc;
+    background-size: 100% auto;
+    position: absolute;
+    top: 80%;
+    right: 17%;
+}
+}

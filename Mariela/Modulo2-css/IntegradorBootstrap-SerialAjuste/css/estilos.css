@@ -1,0 +1,112 @@
+.container {margin-top: 20px;}
+
+.fondo {background: black;}
+
+.white {
+		background-color: white;
+		height: 400px;
+} 
+
+.yellow  {
+		background-color: yellow;
+		height: 400px;
+}
+
+.lightblue {
+		background-color: lightblue;
+		height: 400px;
+}
+
+.green  {
+		background-color: green;
+		height: 400px;
+}
+
+.pink  {
+		background-color: pink;
+		height: 400px;
+}
+
+.red  {
+		background-color: red;
+		height: 400px;
+}
+
+.blue  {
+		background-color: blue;
+		height: 400px;
+}
+
+.azul, .negroa, .rosa, .negrob, .celeste, .negroc, .blanco { 
+	height: 50px; 
+}
+
+.negroa, .negrob, .negroc {
+	background-color: black;
+}
+
+.azul {
+	background-color: blue;
+}
+
+.rosa {
+	background-color: pink;
+}
+
+.celeste {
+	background-color: lightblue;
+}
+
+.blanco {
+	background-color: white;
+}
+
+.degrade, .degrade2 {
+	background: linear-gradient(to right, white, black);
+	height: 40px;
+}
+
+
+.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve, .diez, .once, .doce, .trece{ 
+	height: 30px; 
+}
+
+.uno{
+ background: black;
+}
+.dos{
+	background-color: #060606;
+}
+.tres{
+	background-color: #242424;
+}
+.cuatro{
+	background-color: #3c3c3c
+}
+.cinco{
+	background-color: #585858;
+}
+.seis{
+	background-color: #727272;
+}
+.siete{
+	background-color: #8e8e8e;
+}
+.ocho{
+	background-color: #a8a8a8;
+}
+.nueve{
+	background-color: #BBB9B8;
+}
+.diez{
+	background-color: #c4c4c4;
+}
+.once{
+	background-color: #dedede;
+}
+.doce {
+	background-color: #fafafa;
+}
+.trece{
+ background: black;
+}
