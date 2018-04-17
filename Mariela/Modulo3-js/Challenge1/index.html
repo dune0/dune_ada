@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> 
+	<title>Document</title>
+</head>
+<body>
+	<div class="main">
+		<section class="menu">
+			<h1>Elige tu mejor opción de almuerzo</h1>
+			<p>Plato principal</p>
+			<form id="menu">
+			  <select id="platoPrincipal">
+			    <option value="-1">Seleccione una opcion</option>
+			  </select>
+			</form>
+			<p>Guarnición</p>
+			<form id="menu">
+			  <select id="guarnicion">
+			    <option value="-1">Seleccione una opcion</option>
+			  </select>
+			</form>
+			<p>Postre</p>
+			<form id="menu">
+			  <select id="postre">
+			    <option value="-1">Seleccione una opcion</option>
+			  </select>
+			</form>
+			<button id="confirmar" type="submit">Confirmar</button>
+		</section>
+		<section class="almuerzo">
+			<p class="title">Tu almuerzo:</p>
+			<div class="resultado">
+				<p id="principalFinal"></p>
+				<p id="guarnicionFinal"></p>
+				<p id="postreFinal"></p>
+			</div>
+		</section>
+   </div>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

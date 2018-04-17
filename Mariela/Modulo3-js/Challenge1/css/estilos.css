@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+	margin: auto;
+	font-family: 'Slabo 27px', serif;
+}
+
+.main {
+	width: 60%;
+	height: auto;
+	display: flex;
+	margin: auto;
+	padding: 20px 0px 5px 0px;
+	background-color: #b9b2c3;
+}
+
+.menu{
+	width: 60%;
+}
+
+.tuAlmuerzo{
+	width: 40%;
+}
+
+#platoPrincipal, #guarnicion, #postre{
+	border: none;
+    background: #fff;
+    width: 200px;
+    height: 20px;
+    font-size: 12px;
+}
+
+
+
+.almuerzo {
+	width: 30%;
+	height: auto;
+	background-color: #ff9612;
+	text-align: center;
+}
+
+.almuerzo .resultado {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+}
+
+.almuerzo .resultado p {
+	margin: 20px;
+}

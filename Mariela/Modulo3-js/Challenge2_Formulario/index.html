@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+</head>
+<body>
+<form class="main">
+	<h1>Formulario de Inscripcion</h1><br>
+	<div>
+		<label>Nombre</label>
+		<input type="text" name="nombre" id="nombre" class="obligatorio">
+		<label class="error obLabel"></label>
+	</div>
+    <div>
+		<label>Apellido</label>
+		<input type="text" name="apellido" id="apellido" class="obligatorio">
+		<label class="error obLabel"></label>
+	</div>
+	<div>
+		<label>Nacionalidad</label>
+		<select id="nacionalidad">
+			<option value="-1">Seleccione una opcion</option>	
+		</select>
+	</div>
+	<div>
+		<label>Fecha de nacimiento</label>
+		<input type="text" name="fechadenac" id="fechadenac" class="obligatorio">
+		<label class="error obLabel"></label>
+	</div>
+	<div>
+		<label>Tipo de documento</label>
+		<select id="tipodedoc">
+			<option value="-1">Seleccione una opcion</option>	
+		</select>
+		<label>Numero de documento</label>
+		<input type="text" name="numdedoc" id="numdedoc" class="obligatorio">
+		<label class="error obLabel"></label>
+	</div>
+	<div>
+		<label>Calle</label>
+		<input type="text" name="calle" id="calle" class="obligatorio">
+		<label class="error obLabel"></label>
+	</div>
+	<div>
+		<label>Numero</label>
+		<input type="text" name="numero" id="numero">
+		<label class="error obLabel"></label>
+		<label>Piso</label>
+		<input type="text" name="piso" id="piso">
+		<label class="error obLabel"></label>
+		<label>Depto</label>
+		<input type="text" name="depto" id="depto">
+		<label class="error obLabel"></label>
+	</div>
+	<div>
+		<label>Provincia</label>
+		<select id="provs">
+			<option value="-1">Seleccione una opcion</option>	
+		</select>
+	</div>
+	<div>
+		<label>Ciudad</label>
+		<select id="city">
+			<option value="0">Seleccione una opcion</option>	
+		</select>
+	</div>
+
+
+
+		<label>Email</label>
+		<input type="text" name="email" id="email" class="obligatorio">
+		<label class="error obLabel" id="emailError"></label>
+
+		<label>Observaciones</label><br>
+		<textarea></textarea>
+
+    	<input type="submit" value="Enviar" id="Enviar">
+</form>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

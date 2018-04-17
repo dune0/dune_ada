@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+}
+.main {
+  background: black;
+  width: 800px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+}
+.div {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.div:hover {
+  opacity: 0.5;
+}
+.azul {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+.azul:hover {
+  opacity: 0.5;
+}
+.verde {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: green;
+}
+.verde:hover {
+  opacity: 0.5;
+}
+.rojo {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+.rojo:hover {
+  opacity: 0.5;
+}

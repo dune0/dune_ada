@@ -1,0 +1,1 @@
+/*Ejercicio 3: Escribir una función que dada una palabra pasada por parámetro determine si es aguda, grave o esdrújula.*/

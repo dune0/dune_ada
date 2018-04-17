@@ -1,0 +1,17 @@
+*{
+	box-sizing: border-box;
+	margin: auto;
+	font-family: 'Slabo 27px', serif;
+}
+
+body{
+	width: 90%;
+}
+
+form{
+	width: 100%; 
+}
+
+.error{
+	color: red;
+}
