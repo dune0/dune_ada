@@ -69,9 +69,14 @@ if (kmdistancia > 10 && costo < 1500){
 - Amex – hasta 3 cuotas sin interés
 - Todas las demás - 1 cuota sin interés*/
 
-var Mastercard = 6 cuotas;
-var Visa = 9 cuotas;
-var Amex = 3 cuotas;
-var otrasTarjetas = 1 cuota;
+var tarjeta = "Amex";
 
-if () {}
+if (tarjeta == "Visa") {
+	console.log("Tiene hasta 9 cuotas sin interes");
+} else if (tarjeta == "Mastercard"){
+    console.log("Tiene hasta 6 cuotas sin interes");
+} else if (tarjeta == "Amex"){
+	console.log("Tiene hasta 3 cuotas sin interes");
+} else {
+	console.log("Tiene 1 cuota sin interes abonando con otras tarjetas");
+}
