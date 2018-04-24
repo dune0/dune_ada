@@ -12,13 +12,13 @@ var semaforoPeatones2 = semaforoVehiculos2
 var semaforoParaCiegos = false;
 
  if (semaforoVehiculos1 == "Verde"){
- 	console.log("Puede cruzar");
  	semaforoVehiculos2 = "Rojo";
  	semaforoPeatones2 = "Stop";
+ 	console.log("Puede cruzar");
  } if (semaforoVehiculos1 == "Rojo"){
- 	console.log("No puede cruzar");
  	semaforoVehiculos2 = "Verde";
  	semaforoPeatones2 = "Walk";
+ 	console.log("No puede cruzar");
  }
 
 
@@ -36,6 +36,17 @@ Ejercicio 3: Modelar con lógica y estructuras conocidas un juego de preguntas y
 - 3 rondas de 5 preguntas cada una.
 - Para pasar de ronda deben responderse correctamente 3 preguntas por ronda
 */
+
+var cont= 0;
+var ronda= 0;
+var preguntas= 0;
+
+/*
+for (statement 1; statement 2; statement 3) {
+    code block to be executed
+}
+*/
+
 /*
 Ejercicio 4: A partir del ejercicio anterior, incorporar las siguientes condiciones:
 - El valor de las respuestas correctas en la primera ronda será de 5 puntos, en la segunda 10 y en la tercera 15.
