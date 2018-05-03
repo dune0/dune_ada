@@ -1,0 +1,39 @@
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+	<header class="header"></header>
+	<div class="main">
+		<aside class="perfil">
+			<div class="foto">
+				<img src="Imagenes/perfil.jpg">
+				<h1 id="nombre">Mariela Gimenez</h1>
+				<h2 id="fechadenac">Argentina</p>
+				<p id="ciudad">Cat lover</p>
+			</div>
+			<div class="amigos">
+				<div><img src="Imagenes/amigo1.jpg"><p>Ruben Montero</p></div>
+				<div><img src="Imagenes/amigo2.jpg"><p>Azul Ridson</p></div>
+				<div><img src="Imagenes/amigo3.jpg"><p>Valeriana Gonzalez</p></div>
+				<div><img src="Imagenes/amigo4.jpg"><p>George Miller</p></div>
+				<div><img src="Imagenes/amigo5.jpg"><p>Greta Gerwig</p></div>
+				<div><img src="Imagenes/amigo6.jpg"><p>Benjamin Putnam</p></div>
+			</div>
+		</aside>
+		<article class="publicaciones">
+			<div id="uno">
+				<img src="Imagenes/publicacion1.jpg">
+	            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate numquam distinctio error dolore enim! Omnis explicabo cum ex eligendi, consequuntur nesciunt beatae dolorem, veniam nulla ducimus quis rerum molestiae earum.</span>
+			</div>
+			<div id="dos">
+				<img src="Imagenes/publicacion2.jpg">
+	            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate numquam distinctio error dolore enim! Omnis explicabo cum ex eligendi, consequuntur nesciunt beatae dolorem, veniam nulla ducimus quis rerum molestiae earum.</span>
+			</div>
+			<div id="tres">
+				<img src="Imagenes/publicacion3.jpg">
+	            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate numquam distinctio error dolore enim! Omnis explicabo cum ex eligendi, consequuntur nesciunt beatae dolorem, veniam nulla ducimus quis rerum molestiae earum.</span>
+			</div>
+			<form class="formulario">
+			<input id="queonda" type="text" value="Que onda?"><br>
+			<input id="publicar" type="submit" value="Publicar">
+		</form>
+		</article>
+	</div>

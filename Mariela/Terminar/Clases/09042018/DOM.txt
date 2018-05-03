@@ -1,0 +1,6 @@
+Atributos:
+id
+class
+src
+color
+href

@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  width: 800px;
+  margin: a 0 auto;
+  background: black;
+}
+.div {
+  width: 385px;
+  height: 300px;
+  display: inline-block;
+}
+.uno {
+  width: 385px;
+  height: 300px;
+  display: inline-block;
+  background: peru;
+  margin-left: 10px;
+}
+.dos {
+  width: 385px;
+  height: 300px;
+  display: inline-block;
+  background: yellow;
+  margin-right: 10px;
+}
+.tres {
+  width: 385px;
+  height: 300px;
+  display: inline-block;
+  background: peru;
+  margin-left: 10px;
+}
+.tres:hover {
+  background-color: plum;
+}
+.cuatro {
+  width: 385px;
+  height: 300px;
+  display: inline-block;
+  background: yellow;
+  margin-right: 10px;
+}
+.cuatro:hover {
+  background-color: palegreen;
+}
+.cinco {
+  width: 800px;
+  height: 100px;
+  background: pink;
+}

@@ -1,0 +1,15 @@
+Procesadores
+less
+sass
+atylus
+
+CI -> STG -> PROD
+|
+LOCAL
+
+ALFA - BETA
+
+ 3(mayor).3.7(minor)
+
+variables
+nest

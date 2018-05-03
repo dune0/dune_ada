@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+	margin: auto;
+	font-family: 'Lora', serif;
+	padding: 5px;
+
+}
+
+body{
+	background-image: url(../imagenes/bday6.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+	width: 98%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+input{
+	width: 300px;
+}
+
+input[type=date]{
+	color: #dfb000;
+}
+
+input[type=text]{
+	color: #dfb000;
+
+}
+
+button{
+	margin-top: 5%;
+	width: 100px;
+	border-radius: 5%;
+	color: #004485;
+	background:  #f6eded;
+	border: none;
+	cursor: url(../imagenes/ballon.cur), auto;
+	padding: 5px;
+}
+
+button:hover {
+    background-color: #e8a8c8;
+    border: 1px black solid;
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+}
+
+img:hover  {
+  opacity: 0.5;
+  transition: .2s ease;
+}
+
+.error {
+	color: #ff0000;
+}

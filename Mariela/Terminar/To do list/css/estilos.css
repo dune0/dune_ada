@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  margin: auto;
+  font-family: 'Slabo 27px', serif;
+}
+
+body {
+  width: 35%;
+  padding: 10px;
+}
+
+.todolist{
+  width: 100%;
+  height: 300px;
+  background-color: #d9cbd7;
+  padding: 10px;
+}
+
+h1{
+  color: #ff5079;
+  font-size: 20px;
+  margin-left: 26px;
+}
+
+.formulario{
+  display: flex;
+}
+
+#agregar{   
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+}
+
+#entrada{
+  width: 300px;
+}
+
+img{
+  width: 18%;
+}

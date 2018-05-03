@@ -1,0 +1,265 @@
+/*
+*{
+	box-sizing: border-box;
+	margin: auto;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body{
+	width: 90%;
+}
+
+.header{
+	width: 100%;
+	height: 30px;
+	background: #002395;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+}
+
+.perfil{
+	width: 30%;
+	height: 500px;
+	float: left;
+	background-color: #dbdcff;
+}
+#nombre{
+    color: #1013c7;
+}
+
+#fechadenac, #ciudad{
+	font-size: 15px;
+}
+
+.foto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.foto img{
+	width: 200px;
+	height: 200px;
+}
+
+.amigos{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 10px;
+}
+
+.amigos img {
+	width: 50px;
+	height: 50px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.amigos div{
+	width: 100px;
+	padding: 5px;
+}
+
+.amigos p{
+    font-size: 13px;
+    text-align: center;
+}
+
+.publicaciones{
+    width: 70%;
+    height: 400px;
+	float: right;
+	background-color: #dbdcff;
+
+}
+
+.publicaciones img {
+	width: 120px;
+	height: 120px;
+	float: left;
+	padding: 5px;
+}
+
+
+#uno, #dos, #tres{
+	display: inline-block;
+}
+
+span{
+	font-size: 12px;
+    text-align: left;
+    display: flex;
+    margin-top: 10px;
+}
+
+.formulario{
+	width: 100%;
+	background-color: #dbdcff;
+	display: inline-block;
+	padding: 10px;
+}
+
+#queonda{
+    width: 700px;
+    height: 100px;
+    float: left;
+}
+
+#publicar{
+	float: right;
+	margin-top: 78px;
+	background-color: blue;
+	color: white;
+}
+
+
+@media screen and (max-width: 480px){
+	
+.header{
+	display: none;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil{
+	width: 100%;
+    height: auto;
+}
+
+.foto{
+	background-color: #dbdcff;
+}
+
+#nombre{
+	font-size: 20px;
+    color: #1013c7;
+}
+
+#fechadenac, #ciudad{
+	font-size: 13px;
+}
+
+.foto img {
+	width: 150px;
+	height: 150px;
+}
+
+.amigos{
+	width: 100%;
+	height: auto;
+	flex-wrap: wrap;
+	background-color: #dbdcff;
+}
+
+.amigos img{
+	width: 70px;
+	height: 70px;
+}
+
+.amigos div{
+	width: 100px;
+}
+
+.publicaciones{
+	width: 100%;
+    background-color: #dbdcff;
+}
+
+.formulario{
+	width: 100%;
+	background-color: #dbdcff;
+	display: inline-block;
+	padding: 10px;
+}
+
+#queonda{
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+#publicar{
+	float: right;
+	margin-top: 58px;
+	background-color: blue;
+	color: white;
+}
+
+}
+*/
+
+*{
+	box-sizing: border-box;
+	margin: auto;
+}
+
+body {
+	width: 80%; 
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #0900ff;
+}
+
+.lateral{
+	float: left;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	background-color: #d4dadd;
+}
+
+.thumb{
+	width: 100px;
+	height: 100px;
+}
+
+li{
+	list-style: none;
+}
+
+#datosPerfil h1{
+	font-size: 20px;
+	color: #2f10fb;
+}
+
+#datosPerfil h2, p {
+	font-size: 14px;
+	text-align: center;
+}
+
+#datosPerfil img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding: 10px;
+}
+
+#muro{
+	display: inline-block;
+}
+
+#amigos{
+	float: left;
+	padding: 10px;
+}
+
+label {
+	font-size: 20px;
+}
+
+form{
+	float: right;
+}

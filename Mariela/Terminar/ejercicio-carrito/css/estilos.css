@@ -1,0 +1,40 @@
+header{
+	height: 150px;
+	background: #e4c8d3;
+	text-align: center;
+}
+
+header h1{
+	font-size: 22px;
+}
+
+.products-row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.product{
+
+	width: 30%;
+}
+
+.precio{
+
+	font-weight: bold;
+}
+
+footer{
+
+	height: 100px;
+	background: #e4c8d3;
+	text-align: center;
+}
+
+div img {
+	display: flex;
+	justify-content: center;
+	width: 260px;
+    height: 280px;
+}
+

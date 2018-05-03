@@ -1,0 +1,3 @@
+var principal: ["Verduras al grill","Guacamole","Hamburguesa de Quinoa", "Portobellos rellenos"];
+var guarnicion: ["Espárragos salteados","Morrones caramelizados","Puré de tres verduras", "Aros de cebollas"];
+var postre: ["Crumble de fresas","Strudel de manzana","Helado","Flan con dulce de leche"];

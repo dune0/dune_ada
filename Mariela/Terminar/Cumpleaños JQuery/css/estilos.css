@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+	margin: auto;
+	padding: 10px 10px;
+}
+
+body{
+	background-image: url(../imagenes/bday2.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+	width: 60%;
+	height: auto;
+	background-color:hsla(290,100%,50%,0.1);
+	margin: 0 auto;
+	display: flex;
+	align-items:center;
+	flex-direction: column;
+}
+
+@font-face {
+	font-family: HarryPotter;
+	src: url(Fuente/HarryPotter.ttf) format('truetype')
+}
+
+h2{
+	font-family: HarryPotter;
+	color: #000000;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+h1{
+	font-family: HarryPotter;
+	color: #000000;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+li{
+	color: #000000;
+	text-align: center;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+}
+
+img{
+	width: 300px;
+	height: 300px;
+}
+
+img:hover{
+  transition: .2s ease;
+  opacity: 0.5;
+}
+
+/*
+button{
+	background: none;
+	border: none;
+	cursor: url(../imagenes/ballon.cur), auto;
+	color: #19005a;
+	display: flex;
+	justify-content: center;
+	font-size: 15px;
+}
+
+button:hover {
+	color:  #ffcde6;
+}
+*/
+
+#rayo{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-left: 20%;
+}
+/*YAY HOME*/

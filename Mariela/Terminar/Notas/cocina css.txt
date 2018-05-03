@@ -1,0 +1,132 @@
+body{
+	width: 100%;
+	background: grey;
+	display: flex;
+}
+
+#top-bar{
+    width: 100%;    
+    position: fixed;
+    background: lightcyan;
+}
+
+h1{
+	float: left;
+	margin-left: 55px;
+	line-height: 70px;
+	color: pink;
+	font-size: 50px;
+	font-family: sans-serif;
+}
+
+.menu{
+	float: right;
+        margin-right: 55px;
+	list-style: none; /*le saca el puntito al listado*/
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+}
+
+.menu li a {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 70px;
+    color: grey;
+    display: block;
+}
+
+
+
+section{
+	width: 70%;
+	float: left;
+	padding: 0;
+}
+
+.aside{
+	width: 30%;
+	float: right;
+	padding: 0;
+	background: white;
+}
+
+.profile{
+	margin: 0;
+	padding: 0;
+}
+.profile img{
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+.profile span{
+	font-size: 15px;
+	color: grey;
+	text-align: center;
+}
+
+.profile a{
+	color: #c59b9b;
+	text-decoration: none;
+}
+
+.redessoc li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.redessoc li a{
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.redessoc img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+--------------------------------
+
+article span{
+    font-size: 13px;
+    font-family: serif;
+    color: #4a235a;
+}
+
+article img{
+	width: 40%;
+	height: 60%;
+}
+
+article{
+	margin-top: 7%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+section{
+}
+
+span{
+	font-size: 20px;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+----------------------------------------
+.columna1, .columna2, .columna3, .columna4, .columna5, .columna6{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}

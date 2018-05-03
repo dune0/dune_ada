@@ -1,0 +1,57 @@
+@totalwidth: 800px;
+@mainpadding: 10px;
+
+*{
+	box-sizing: border-box;
+}
+
+.main{
+	width: @totalwidth;
+	margin:a 0 auto;
+	background: black;
+}
+
+.div{
+	width: 385px;
+	height: 300px;
+	display: inline-block;
+}
+.uno{
+	.div;
+	background: peru;
+	margin-left: 10px;
+}
+
+.dos{
+	.div;
+	background: yellow;
+	margin-right: 10px;
+}
+
+.tres{
+	.div;
+	background: peru;
+	margin-left: 10px;
+	&:hover{
+		background-color:plum;
+	}
+}
+
+.cuatro{
+	.div;
+	background: yellow;
+	margin-right: 10px;
+	&:hover{
+		background-color: palegreen;
+	}
+}
+
+.cinco{
+	width: @totalwidth;
+	height: 100px;
+	background: pink;
+}
+
+@media (max-width: 500px){
+	@width:auto;
+}

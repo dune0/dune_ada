@@ -1,0 +1,2 @@
+<button value="submit" type="submit" id="editar" data-accion="editar"><img src="img/pencil.png"></button>
+<button value="submit" type="reset" id="borrar" data-accion="borrar"><img src="img/trashcan.png"></button>

@@ -1,0 +1,14 @@
+git init
+
+git status
+git add
+git status
+git commit -m '...'
+git status
+git remote add origin https://github.com/dune0/xxxx.git
+git status
+git push -u origin master
+git status
+
+git remote -v
+git add -A

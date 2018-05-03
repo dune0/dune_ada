@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+	margin: auto;
+	font-family: 'Gugi', cursive;
+}
+
+body{
+	width: 50%; 
+	background-color: #e4aab1; 
+}
+
+
+form{
+	width: 70%;
+	background-color: #d82a5f;
+	padding: 30px;
+}
+
+.name label {
+    display: inline-block;
+    width: 100px;
+}
+
+.name input {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.apel label {
+    display: inline-block;
+    width: 100px;
+}
+
+.apel input {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.mail label {
+    display: inline-block;
+    width: 100px;
+}
+
+.mail input {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.peliculas{
+	margin-left: 20%;
+	padding: 5px;
+}
+
+.peliculas label {
+  display: block;
+  padding-left: 22px;
+}
+.peliculas input {
+  vertical-align: middle;
+  float: left;
+}
+
+#alquilar, #btnLimpiar{
+	background-color: #3a403c;
+	color:#fff;
+	border-radius: 5%;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	outline:none;
+	cursor:pointer;
+	margin-left: 67%;
+}

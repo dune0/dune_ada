@@ -1,0 +1,44 @@
+02/03
+1) GIT CLONE - Copia a mi PC (remoto a local) 
+2) GIT INIT - Subir a repo (local a remoto)
+   GIT REMOTE ADD ORIGIN - Sincroniza el contenido entre ambas
+
+Crear repositorio - 
+Consola:
+GitBash: version terminal
+CMD: comando de windows
+
+pwd: la carpeta donde estoy (ej: ada@ada)
+ls - la: listado de archivos
+cd: dirije a donde quiero ir
+cd..: vuelve atras
+mkdir - crear carpeta
+git init - convertir en repo
+git remote add origin + pegar link*
+git clone + link*
+
+*ir a github, copiar url, volver a la terminal
+
+hash: encriptar clave (hash: 256 caracteres alfanumerico)
+clave publica y privada
+<public key>
+clave ----> hashear ----> 256 caracteres IRREVERSIBLE
+- Autenticacion doble
+
+05/03
+entre guion bajo ---> negrita
+pwd
+cd home/pepe ---> ruta
+ls -l directorios
+ls -la
+cntrl + c Cancela el proceso
+cmd: a la izquierda se ven los permisos***
+ej: rw_r_ (leer, escribir, ejecutar)
+
+Repositorio local y remoto 
+Control de version
+
+Version 1: GIT INIT Convierte un archivo propio para crear una repo .git
+Version 2: GIT CLONE Se necesitan permisos para poder editar esta repo
+
+C:/Users/dune_/Desktop/

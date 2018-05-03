@@ -1,0 +1,239 @@
+
+dune_@DESKTOP-Q1J2LIH MINGW64 ~
+$ pwd
+/c/Users/dune_
+
+dune_@DESKTOP-Q1J2LIH MINGW64 ~
+$ cd /c/users/dune_/desktop/ada/grupo
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo
+$ cd /c/users/dune_/desktop/ada/grupo/ada_grupal
+bash: cd: /c/users/dune_/desktop/ada/grupo/ada_grupal: No such file or directory
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo
+$ cd /c/users/dune_/desktop/ada/grupo/ada-grupal
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git push
+Everything up-to-date
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   parque_centenario/css/estilos.css
+        modified:   parque_centenario/index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        parque_centenario/css/fuentes/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git log
+commit 07eb7ddc075070f19bc2122a472d6cb7fac2048d (HEAD -> master, origin/master, origin/HEAD)
+Merge: 1dbf741 0bcde3c
+Author: Dune <36993395+dune0@users.noreply.github.com>
+Date:   Sun Mar 18 20:41:22 2018 +0200
+
+    Merge pull request #1 from florkaa/master
+
+    ada_grupo1
+
+commit 0bcde3c1fdc3a437010f359da7df2f994653990d
+Author: florka <[florencia.ayc@gmail.com]>
+Date:   Sun Mar 18 15:17:23 2018 -0300
+
+    hyperlink
+
+commit 41163a4fba50fd5c3c1da8ca5cecc86e05831a2c
+Author: florka <[florencia.ayc@gmail.com]>
+Date:   Sun Mar 18 15:11:02 2018 -0300
+
+    responsive
+
+commit fb6953c0019afe25217db360ff7def4ead0c7dde
+Author: florka <[florencia.ayc@gmail.com]>
+Date:   Sun Mar 18 01:46:11 2018 -0300
+
+    responsive
+
+commit 655b91ab983859e94a819f0db75b8c05cc556473
+Author: Nati <[natiguida@gmail.com]>
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   parque_centenario/css/estilos.css
+        modified:   parque_centenario/index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        parque_centenario/css/fuentes/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git add .
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   parque_centenario/css/estilos.css
+        new file:   parque_centenario/css/fuentes/Urban2.otf
+        modified:   parque_centenario/index.html
+
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git commit -m "modificaciones en el nav"
+[master 79f5246] modificaciones en el nav
+ 3 files changed, 26 insertions(+), 1 deletion(-)
+ create mode 100644 parque_centenario/css/fuentes/Urban2.otf
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git log
+commit 79f52462965d719fb23c3b27ea94fb3ea135ce57 (HEAD -> master)
+Author: dune0 <dune_megv@hotmail.com>
+Date:   Mon Mar 19 09:05:31 2018 -0300
+
+    modificaciones en el nav
+
+commit 07eb7ddc075070f19bc2122a472d6cb7fac2048d (origin/master, origin/HEAD)
+Merge: 1dbf741 0bcde3c
+Author: Dune <36993395+dune0@users.noreply.github.com>
+Date:   Sun Mar 18 20:41:22 2018 +0200
+
+    Merge pull request #1 from florkaa/master
+
+    ada_grupo1
+
+commit 0bcde3c1fdc3a437010f359da7df2f994653990d
+Author: florka <[florencia.ayc@gmail.com]>
+Date:   Sun Mar 18 15:17:23 2018 -0300
+
+    hyperlink
+
+commit 41163a4fba50fd5c3c1da8ca5cecc86e05831a2c
+Author: florka <[florencia.ayc@gmail.com]>
+Date:   Sun Mar 18 15:11:02 2018 -0300
+
+    responsive
+
+commit fb6953c0019afe25217db360ff7def4ead0c7dde
+Author: florka <[florencia.ayc@gmail.com]>
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git pull origin master
+From https://github.com/dune0/ada-grupal
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git push origin master
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 32.78 KiB | 1.02 MiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/dune0/ada-grupal.git
+   07eb7dd..79f5246  master -> master
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git remote -v
+origin  https://github.com/dune0/ada-grupal.git (fetch)
+origin  https://github.com/dune0/ada-grupal.git (push)
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git remote rm origin
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git remote add origin https://github.com/florkaa/ada-grupal
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git remote -v
+origin  https://github.com/florkaa/ada-grupal (fetch)
+origin  https://github.com/florkaa/ada-grupal (push)
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git pull origin master
+remote: Counting objects: 1, done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), done.
+From https://github.com/florkaa/ada-grupal
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+Already up to date!
+Merge made by the 'recursive' strategy.
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git log
+commit d0c7e7170b7802e4f704950dd7a284485a144189 (HEAD -> master)
+Merge: 79f5246 e92ee19
+Author: dune0 <dune_megv@hotmail.com>
+Date:   Mon Mar 19 09:13:53 2018 -0300
+
+    Merge branch 'master' of https://github.com/florkaa/ada-grupal
+
+commit 79f52462965d719fb23c3b27ea94fb3ea135ce57
+Author: dune0 <dune_megv@hotmail.com>
+Date:   Mon Mar 19 09:05:31 2018 -0300
+
+    modificaciones en el nav
+
+commit e92ee19486d004affad83afe7e3d2d3711d55cb8 (origin/master)
+Merge: 0bcde3c 07eb7dd
+Author: Dune <36993395+dune0@users.noreply.github.com>
+Date:   Mon Mar 19 00:17:33 2018 +0200
+
+    Merge pull request #1 from dune0/master
+
+    Merge pull request #1 from florkaa/master
+
+commit 07eb7ddc075070f19bc2122a472d6cb7fac2048d
+Merge: 1dbf741 0bcde3c
+Author: Dune <36993395+dune0@users.noreply.github.com>
+Date:   Sun Mar 18 20:41:22 2018 +0200
+
+    Merge pull request #1 from florkaa/master
+
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)
+$ git push origin master
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 32.94 KiB | 2.35 MiB/s, done.
+Total 9 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To https://github.com/florkaa/ada-grupal
+   e92ee19..d0c7e71  master -> master
+
+dune_@DESKTOP-Q1J2LIH MINGW64 /c/users/dune_/desktop/ada/grupo/ada-grupal (master)

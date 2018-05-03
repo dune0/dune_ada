@@ -1,0 +1,161 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* sin visitar */
+a:link {
+    color: black;
+}
+
+/* visitado */
+a:visited {
+    color: #7d3c98;
+}
+
+/* mouse sobre el link */
+a:hover {
+	cursor: pointer;
+ }
+
+body{
+	width: 100%;
+	background: #d5dbdb;
+}
+
+/* aca empieza el nav*/
+nav{
+    width: 100%;
+    height: 67px;  
+    position: fixed;
+    background: lightcyan;
+}
+
+h1{
+    float: left;
+	margin-left: 10%;
+	line-height: 60px;
+	color: #d2b4de;
+	font-size: 40px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.menu{
+	float: right;
+    margin-right: 55px;
+	list-style: none; /*le saca el puntito al listado*/
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu li a {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 70px;
+    color: grey;
+    display: block;
+}
+
+/*aca termina el nav*/
+
+.main{
+	width: 100%;
+	display: flex; 
+	flex-flow:row nowrap;
+}
+
+/*aca empieza aside*/
+aside{
+	padding: 0;
+	margin-top: 5%;
+	background: #e6b0aa;
+	display: flex;
+	flex-direction: column;
+}
+
+.profile img{
+	width: 100%;
+}
+
+.profile p{
+	font-size: 15px;
+	color: grey;
+	padding: 5px;
+	text-align: justify;
+}
+
+.profile a{
+	color: #CD5C5C;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+}
+
+.redes{
+    width: 100%;
+	height: 80px;
+}
+
+.redessoc{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.redessoc li{
+	list-style: none;
+}
+
+.redessoc img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.separador{
+	display: flex;
+	justify-content: center;
+}
+.separador img{
+	width: 30%;
+	height: 20%;
+}
+.buscador {
+	width: 100%;
+    text-align: center;
+}	
+/*aca termina aside*/
+
+.galeria{
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.galeria img{
+	width: 27%;
+	height: 33%;
+}
+
+p{
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	background: #808b96;
+}
+
+footer a{
+	color: #CD5C5C;
+}
