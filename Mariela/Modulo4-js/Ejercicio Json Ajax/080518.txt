@@ -1,0 +1,19 @@
+Consigna
+Pegarle a jsonplaceholder.com/post
+Para esto usamos el objeto ajax de jquery
+
+Ayudita
+
+$.aja({
+method: "post",
+url: "https://jsonplaceholder.typicode.com/comments",
+data: {name: "John", locaton: "Boston"}// jason
+})
+
+.done(function(response){
+console.log(response): // para ver que viene
+
+//Aca va el codigo para mostrar resultados
+
+});
+

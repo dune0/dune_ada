@@ -1,0 +1,9 @@
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+img{
+	width: 180px;
+	height: 182px;
+}
