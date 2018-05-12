@@ -1,9 +1,45 @@
-*{
-	box-sizing: border-box;
-	margin: 0 auto;
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-img{
-	width: 180px;
-	height: 182px;
+body {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../img/human_gross.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+h1{
+  color: #14e006;
+}
+
+span {
+  color: #4599f9;
+}
+
+.juego p {
+  color: #bd5dd0;
+}
+
+.container-pictures {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-pictures div {
+  width: 24%;
+  text-align: center;
+}
+
+.container-pictures div img {
+  width: 157px;
+}
+
