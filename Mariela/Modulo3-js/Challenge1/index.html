@@ -10,24 +10,40 @@
 	<div class="main">
 		<section class="menu">
 			<h1>Elige tu mejor opción de almuerzo</h1>
+			<img src="img/food.png">
 			<p>Plato principal</p>
 			<form id="menu">
-			  <select id="platoPrincipal">
-			    <option value="-1">Seleccione una opcion</option>
+			  <select id="principal">
+					<option></option>
+					<option>Verduras al grill</option>
+					<option>Guacamole</option>
+					<option>Hamburguesa de Quinoa</option>    
+          <option>Portobellos rellenos</option>
 			  </select>
 			</form>
+			<img src="img/meal.png">
 			<p>Guarnición</p>
 			<form id="menu">
 			  <select id="guarnicion">
-			    <option value="-1">Seleccione una opcion</option>
+					<option></option>
+					<option>Espárragos salteados</option>
+					<option>Morrones caramelizados</option>
+					<option>Puré de tres verduras</option>
+					<option>Aros de cebollas</option>
 			  </select>
 			</form>
+			<img src="img/dessert.png">
 			<p>Postre</p>
 			<form id="menu">
 			  <select id="postre">
-			    <option value="-1">Seleccione una opcion</option>
-			  </select>
+			    <option></option>
+					<option>Crumble de fresas</option>
+					<option>Strudel de manzanas</option>
+					<option>Helado</option>
+					<option>Flan con dulce de leche</option>
+				</select>
 			</form>
+			<br>
 			<button id="confirmar" type="submit">Confirmar</button>
 		</section>
 		<section class="almuerzo">
@@ -38,7 +54,8 @@
 				<p id="postreFinal"></p>
 			</div>
 		</section>
-   </div>
+	 </div>
+	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

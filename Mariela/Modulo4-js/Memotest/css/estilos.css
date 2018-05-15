@@ -20,6 +20,9 @@ h1{
   color: #14e006;
 }
 
+.jugador p {
+  color: aqua;
+}
 span {
   color: #4599f9;
 }

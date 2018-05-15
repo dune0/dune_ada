@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
+	<title>Menu Ejecutivo</title>
+</head>
+<body>
+    <h1>Menú Ejecutivo</h1>
+	<div class="container">
+        <div class="entrada">
+            <img src="img/salad.png">
+            <label>Entrada</label>
+            <select id="entrada">
+                <option value="-1">Elija una opción</option>
+                <option value="0" id="entradagral">General</option>
+                <option value="1" id="entradaveggie">Veggie</option>
+                <option value="2" id="entradaceliaco">Celiaco</option>
+            </select> 
+        </div>
+        <div class="principal">
+            <img src="img/principal.png">
+            <label>Plato Principal</label>
+            <select id="principal">
+                <option value="-1">Elija una opción</option>
+                <option value="0" id="principalgral">General</option>
+                <option value="1" id="principalveggie">Veggie</option>
+                <option value="2" id="principalceliaco">Celiaco</option>
+            </select>
+        </div>
+        <div  class="postres">
+            <img src="img/postre.png">
+            <label>Postres</label>
+            <select id="postres">
+                <option value="-1">Elija una opción</option>
+                <option value="0" id="postregral">General</option>
+                <option value="1" id="postreveggie">Veggie</option>
+                <option value="2" id="postreceliaco">Celiaco</option>
+            </select>
+        </div>
+        <div class="bebidas">
+            <img src="img/drink.png">
+            <label>Bebidas</label>
+            <select>
+                <option value="-1">Elija una opción</option>
+                <option value="0" id="sinalcohol">Sin alcohol</option>
+                <option value="1" id="alcoholico">Con alcohol</option>
+            </select> 
+        </div>
+        <div class="pagar">
+        <img src="img/pay.jpg">
+        <label>Total</label>
+        <input type="text" id="pagar">
+        <br> 
+        </div>
+        <input type="button" id="cargar" value="CARGAR"> 
+    </div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src=""></script>
+</body>
+</html>

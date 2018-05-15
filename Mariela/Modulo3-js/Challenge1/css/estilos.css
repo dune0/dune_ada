@@ -4,13 +4,20 @@
 	font-family: 'Slabo 27px', serif;
 }
 
+body{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .main {
 	width: 60%;
 	height: auto;
 	display: flex;
 	margin: auto;
+	margin-top: 30px;
 	padding: 20px 0px 5px 0px;
-	background-color: #b9b2c3;
+	background-color: #198c8c;
 }
 
 .menu{
@@ -29,12 +36,14 @@
     font-size: 12px;
 }
 
-
-
+.title {
+	color: #fff;
+	text-decoration: underline;
+}
 .almuerzo {
 	width: 30%;
-	height: auto;
-	background-color: #ff9612;
+	height: 200px;
+	background-color: #3a160a;
 	text-align: center;
 }
 
@@ -47,4 +56,9 @@
 
 .almuerzo .resultado p {
 	margin: 20px;
+	color: #fff;
+}
+
+img{
+	width: 30px;
 }

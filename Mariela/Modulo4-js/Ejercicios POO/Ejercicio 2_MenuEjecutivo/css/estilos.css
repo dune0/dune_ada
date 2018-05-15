@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+}
+
+body{
+    width: 50%;
+    margin-top: 10px;
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: #4e3c3b;
+}
+
+.container div{
+    padding: 10px;
+}
+
+#cargar{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+img{
+    width: 30px;
+}
+
+#pagar{
+    margin-left: 10px;
+}
+
+#cargar{
+    margin left: 50px;
+}
