@@ -27,7 +27,8 @@ span {
   color: #4599f9;
 }
 
-.juego p {
+.juego li {
+  list-style-type: square;
   color: #bd5dd0;
 }
 
