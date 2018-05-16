@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">	
 	<title>Memotest</title>
 </head>
@@ -15,38 +16,33 @@
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
 </head>
 <body>
-	<section class="text">
-		<h1><b>Memotest</b></h1>
-		<div class="datosjugador">
-			<p id="nombre">Jugador</p>
-			<input type="text" id="nombrejugador" placeholder="Ingresa tu nombre">
-			<input type="submit" id="ingresanombre" value="Go!">
-		</div>
+	<div class="container">
 		<div class="juego">
-			<ul>
+			<h1>Memotest</h1>
+			<p id="instrucciones"><b>Instrucciones</b></p><br/>
+			<ul class="reglas">
 				<li>Haz click en una ficha</li>
 				<li>Busca su compañera</li>
 				<li>Forma todos los pares que puedas en la menor cantidad de pasos</li>
 				<li>¡A disfrutar del juego!</li>
            </ul>
-			<button id="comenzar">Empezar</button>
-        </div>
+			<p id="nombrejugador"></p>
 		</div>
-	</section>
-	<section class="container-pictures">
-		<div class="carta"><img src="img/carta_oculta.png" data-id="img-uno"></div>
-		<div class="carta"><img src="img/carta_oculta.png" data-id="img-dos"></div>
-		<div class="carta"><img src="img/carta_oculta.png" data-id="img-tres"></div>	
-		<div class="carta"><img src="img/carta_oculta.png" data-id="img-cuatro"></div>
-		<div class="carta"><img src="img/carta_oculta.png" data-id="img-cinco"></div>
-		<div class="carta"><img src="img/carta_oculta.png" data-id="img-seis"></div>
-		<div class="carta"><img src="img/carta_oculta.png" data-id="img-siete"></div>
-		<div class="carta"><img src="img/carta_oculta.png" data-id="img-ocho"></div>
-		<div class="carta"><img src="img/carta_oculta.png" data-id="img-nueve"></div>
-		<div class="carta"><img src="img/carta_oculta.png" data-id="img-diez"></div>
-		<div class="carta"><img src="img/carta_oculta.png" data-id="img-once"></div>
-		<div class="carta"><img src="img/carta_oculta.png" data-id="img-doce"></div>
-	</section>
+	   <div id="tablero">
+			<img src="img/carta_oculta.png" class="carta" data-id="0">
+			<img src="img/carta_oculta.png" class="carta" data-id="1">
+			<img src="img/carta_oculta.png" class="carta" data-id="2">
+			<img src="img/carta_oculta.png" class="carta" data-id="3">
+			<img src="img/carta_oculta.png" class="carta" data-id="4">
+			<img src="img/carta_oculta.png" class="carta" data-id="5">
+			<img src="img/carta_oculta.png" class="carta" data-id="6">
+			<img src="img/carta_oculta.png" class="carta" data-id="7">
+			<img src="img/carta_oculta.png" class="carta" data-id="8">
+			<img src="img/carta_oculta.png" class="carta" data-id="9">
+			<img src="img/carta_oculta.png" class="carta" data-id="10">
+			<img src="img/carta_oculta.png" class="carta" data-id="11">
+	   </div>
+	</div>
 	<script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </body>

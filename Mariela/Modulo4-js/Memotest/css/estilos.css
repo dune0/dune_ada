@@ -1,49 +1,66 @@
-* {
+*{
+  margin:0;
   box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
-body {
-  width: 90%;
+body{
+  width: 100%;
   margin: auto;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-around;
   background-image: url(../img/human_gross.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.juego{
+  width: 30%;
 }
 
 h1{
+  font-size: 60px;
   color: #14e006;
+  letter-spacing: 2px;
 }
 
-.jugador p {
-  color: aqua;
-}
-span {
-  color: #4599f9;
-}
-
-.juego li {
-  list-style-type: square;
-  color: #bd5dd0;
+#instrucciones{
+  color:  #00abff;
+  font-size: 20px;
+  text-decoration: underline;
 }
 
-.container-pictures {
+.reglas li{
+  color: #ff00db;
+  font-size: 18px;
+  list-style: square;
+}
+
+p#nombrejugador{
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+  color: #a91b2f;
+  letter-spacing: 0.05em;
+}
+
+#tablero{
   width: 70%;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
-
-.container-pictures div {
-  width: 24%;
-  text-align: center;
+#tablero img{
+  width: 170px;
+  border: 1px #ee53d8 solid;
+  padding:3px;
+  margin: 5px;
 }
-
-.container-pictures div img {
-  width: 157px;
-}
-
