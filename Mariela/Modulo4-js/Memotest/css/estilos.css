@@ -20,7 +20,7 @@ body{
 }
 
 .juego{
-  width: 30%;
+  width: 40%;
 }
 
 h1{
@@ -37,21 +37,20 @@ h1{
 
 .reglas li{
   color: #ff00db;
-  font-size: 18px;
-  list-style: square;
+  font-size: 17px;
+  list-style: none;
 }
 
 p#nombrejugador{
-  margin-top: 20px;
-  font-size: 14px;
-  font-weight: 800;
-  text-align: center;
-  color: #a91b2f;
-  letter-spacing: 0.05em;
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: left;
+  color: #ff0040;
+  background-color: #e6b798;
 }
 
 #tablero{
-  width: 70%;
+  width: 60%;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -64,3 +63,4 @@ p#nombrejugador{
   padding:3px;
   margin: 5px;
 }
+
