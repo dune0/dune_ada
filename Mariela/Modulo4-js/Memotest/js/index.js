@@ -7,12 +7,11 @@
         alerta = "¡A disfrutar del juego xicaaa! O no...";
     }
  }
-
 cartel()
 */
 
 var azar;
-                                                                                    /*CONSIGO UNA IMAGEN RANDOM*/
+/*CONSIGO UNA IMAGEN RANDOM*/
 var array = ["img/mulder_uno.jpg", "img/mulder_dos.jpg", "img/mulder_tres.jpg", 
               "img/mulder_uno.jpg", "img/mulder_dos.jpg", "img/mulder_tres.jpg", 
               "img/scully_uno.jpg",  "img/scully_dos.jpg", "img/scully_tres.jpg", 
@@ -31,14 +30,13 @@ function shuffle() {
 
 shuffle();
 
-
-                                                                                    /*ME MUESTRA EL DATA ID DE LA IMAGEN DE LA CARTA OCULTA*/
+/*ME MUESTRA EL DATA ID DE LA IMAGEN DE LA CARTA OCULTA*/
 
 var carta = $('.carta');
 var primeraJugada = true;
 var srccarta = ($(this).attr('src') === "img/carta_oculta.png")
 
-function revelarCarta(){
+function revelarCarta1(){
 
 		if (primeraJugada == true){
 			primeraCarta = $(this);
@@ -61,28 +59,4 @@ function revelarCarta(){
 
 revelarCarta();
 
-                                                                                    /**/
-
-
-                                                                                    /**/
-$('.carta').on('click', revelarCarta);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$('.carta').on('click', revelarCarta1);
