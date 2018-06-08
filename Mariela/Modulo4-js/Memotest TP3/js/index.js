@@ -49,30 +49,8 @@ function cartelito() {
   document.getElementById("nombrejugador").innerHTML = alerta;
 }
 cartelito();
-//json
-/*
-function level(){
-        switch (level) {
-          case 'Facil':
-          var maxJugadas = 17
-          break;
-            
-          case 'Intermedio':
-          var maxJugadas = 11
-          break;
-          
-          case 'Experto':
-          var maxJugadas = 7
-          break;
-        
-          default:
-          var maxJugadas = 0
-          break;
-        }
-}
-level();
-*/
 
+//json
 function savePartida(){
     if(localStorage.getItem('partidas')!=null){
         partidas=JSON.parse(localStorage.getItem("partidas")).partidas;
@@ -94,7 +72,7 @@ function savePartida(){
 
    let data=JSON.stringify(jsonPartidas);
    localStorage.setItem('partidas',data);
-    //localStorage.clear();
+   localStorage.clear();
     console.log(localStorage.getItem('partidas'))
 }
 savePartida();
@@ -198,7 +176,6 @@ var match = function match() {
         } // switch
 
         if (jugadas < maxJugadas) {
-            //Si se hacen todo los match, sale mensaje de ganaste
             if (primerClick===segundoClick){
                 var coincidencias = document.getElementsByClassName('match');
                 console.log ('coincidencias:' + coincidencias);
@@ -208,7 +185,6 @@ var match = function match() {
                         alert("Aliens are proud of you"); }, 2000);
                         savePartida()
                         setTimeout (function() {window. location.reload(); }, 2000);
-                    //setTimeout (function() {location.reload(); }, 4000); //resetea el juego para jugar de nuevo
             } 
         }
       } //if jugadas < maxJugadas
@@ -235,8 +211,8 @@ var match = function match() {
 
         switch (level) {
             case 'Facil':
-            $('#btn').attr("disabled", true); // deshabilita el boton al iniciar el juego
-            $('#btn').addClass('hide'); // desaparece el boton al comenzar el juego
+            $('#btn').attr("disabled", true); 
+            $('#btn').addClass('hide'); 
             var maxJugadas = 18;
             Memotest ()
             break;
