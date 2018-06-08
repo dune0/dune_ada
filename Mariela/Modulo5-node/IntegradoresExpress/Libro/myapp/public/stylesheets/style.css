@@ -1,6 +1,7 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #e3a000;
 }
 
 a {
@@ -8,13 +9,11 @@ a {
 }
 
 .book{
-
 	display: inline-block;
 	width: 300px;
 }
 
 .book img{
-
 	width: 50%;
 	height: 50%;
 }

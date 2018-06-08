@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: black;
+  background-image: url("../img/alienwall.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.ranking{
+  display: flex;
+  justify-content: center;
+}
+
+.link a{
+  padding: 40px;
+  margin-left: 40%;
+}
+
+.list td {
+  color: #23093e;
+  font-size: 14px; 
+}

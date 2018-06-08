@@ -31,7 +31,7 @@ var books = [{ titulo: "Harry Potter and The Philosopher's Stone",
 			 },
 			 { titulo: 'Harry Potter and The Cursed Child',
 			   isbn:'198439',
-			   img: 'images/cursedchild.jpeg'
+			   img: 'images/cursed.jpg'
 			 }];
 
 /* GET books. */
