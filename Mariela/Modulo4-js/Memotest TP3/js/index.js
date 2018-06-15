@@ -73,7 +73,7 @@ function savePartida(){
    let data=JSON.stringify(jsonPartidas);
    localStorage.setItem('partidas',data);
    localStorage.clear();
-    console.log(localStorage.getItem('partidas'))
+   console.log(localStorage.getItem('partidas'))
 }
 savePartida();
 //json
@@ -182,7 +182,7 @@ var match = function match() {
                 console.log('lengh:' + coincidencias.length)
                 if (coincidencias.length == 10) {
                     setTimeout (function(){
-                        alert("Aliens are proud of you"); }, 2000);
+                        alert("Aliens are proud of you"); }, 800);
                         savePartida()
                         setTimeout (function() {window. location.reload(); }, 2000);
             } 

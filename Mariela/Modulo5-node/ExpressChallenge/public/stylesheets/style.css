@@ -1,0 +1,90 @@
+body {
+	box-sizing: border-box;
+}
+
+.info{
+	background-image: url(../images/fondo-banner.png);
+	height: 500px;
+}
+
+header {
+
+}
+
+.cuenta {
+} 
+
+h3 a {
+  color: #8dc7d3;
+  text-decoration: none;
+  margin-left: 80%;
+}
+
+nav div {
+	display: inline-block;
+	width: 33%;
+}
+
+ #logo img {
+   margin-left: 40%;
+ }
+
+nav a {
+  font-size: 20px;
+  color:  #5cb0c2;
+  text-decoration: none;
+  padding: 100px;
+}
+
+.buscar{
+  display: flex;
+  justify-content: right;
+}
+
+.buscar input {
+ margin-right: 20px;
+}
+
+#imgtitulos{
+margin-left: 30%; 
+}
+
+.favoritos {	
+ width: 100%;
+ background-image: url(../images/fondo2.png);
+}
+
+aside {
+	float: left;
+	width: 40%;
+}
+
+aside img {
+	margin-top: 10%;
+	margin-left: 10%;
+	border-radius: 50%;
+}
+
+section {
+	float: right;
+	width: 60%;
+}
+
+section div {
+	width: 50%;
+}
+
+#disco1, #disco3 {
+	float: left;
+}
+
+#disco2, #disco4 {
+	float: right;
+}
+
+section img {
+	border-radius: 50%;
+	width: 30%;
+	/*margin-top: 3%;
+	margin-left: 4%;*/
+}

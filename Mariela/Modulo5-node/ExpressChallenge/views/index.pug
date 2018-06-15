@@ -1,0 +1,45 @@
+extends layout
+
+block content
+  .main
+    .info
+      header
+        .cuenta
+          h3.registro
+            a.registrate(href='registrate.html')  Ingresar a mi cuenta / Registrate
+      nav
+        #primeroslinks
+          a(href='' target='_blank')  Home
+          a(href='' target='_blank')  Generos
+        #logo
+          img.logo(src='images/Logo.png' alt='logo')
+        #segundoslinks
+          a(href='' target='_blank')  Discos
+          a(href='' target='_blank')  Contacto
+      br
+      .buscar
+        input(type='search' name='mibusqueda')
+        input(type='submit' value='Buscar')
+      #imgtitulos
+        img(src='images/Titulo_izquierda.png')
+        img(src='images/Titulo_derecha.png')
+    .favoritos
+      aside
+        img(src='images/principal1.jpg')
+      section
+        #disco1
+          img(src='images/disco6.jpg')
+          input(type='text' name='cantidad')
+          input(type='submit' value='Comprar')
+        #disco1
+          img(src='images/disco2.jpg')
+          input(type='text' name='cantidad')
+          input(type='submit' value='Comprar')
+        #disco1
+          img(src='images/disco5.jpg')
+          input(type='text' name='cantidad')
+          input(type='submit' value='Comprar')
+        #disco1
+          img(src='images/disco4.jpg')
+          input(type='text' name='cantidad')
+          input(type='submit' value='Comprar')
