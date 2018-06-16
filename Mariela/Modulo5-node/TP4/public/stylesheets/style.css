@@ -1,11 +1,86 @@
 *{
-	font-family: 'Titillium Web', sans-serif;
-	box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-    align-items: center;
-    background-image: url(../images/wall.jpg);
+      display: flex;
+      flex-direction: column;
+     align-items: center;
+     background-image: url(../images/wall.jpg);
 }
+#main{
+      width: 45%;
+     background: rgba(136,232,251,0.8);
+     border:none;
+     padding: 0.8em 2em;
+     margin-top:1em;
+    cursor: pointer;
+}
+
+#labelPaises{
+             font-size: 2em;
+             color: #33435d;
+}
+
+#encuesta, #respuesta{margin-left: 20%;
+}
+/*estilo a los elementos del formulario*/
+.error{color: red;
+     font-size:0.8em;}
+
+h3{font-size: 1.2em;
+  color: #33435d;
+}
+
+h1{color:#33435d;
+  border-bottom:  0.125em solid #638cb5;}
+
+.pais{font-size: 0.8em; }
+
+#paises{
+        font-size:1.3em;
+       font-weight:bold;
+       color:white;
+       background:#638cb5;
+       border:0px;
+       width:12.5em;
+       height:1.9em;
+       text-align: center;
+       align-items: center;
+}
+
+#enviar{margin:20px 0 20px 0 ;
+        font-size:1.3em;
+       font-weight:bold;
+       color:white;
+       background:#638cb5;
+       border:0px;
+       width:6.3em;
+       height:1.9em;
+}
+
+.radioBtn{font-size: 2.5em;}
+
+input[type="radio"]:checked {
+                            box-shadow: 0 0 0 3px #638cb5;
+}
+
+label{font-size: 1.1em;
+      color: #33435d;}
+
+/*estilos de respuesta*/
+
+#tableDiv{background: #33435d;
+color: white;
+}
+
+th{padding: 2px 25px 2px 25px;
+  margin:0 5px 0 5px;
+  background: #33435d;
+  font-size: 1em;
+  }
+
+tr{padding: 2px 25px 2px 25px;
+  background:#63718b;
+ }
