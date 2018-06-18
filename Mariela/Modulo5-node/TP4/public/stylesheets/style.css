@@ -4,8 +4,8 @@
 }
 
 body {
-      display: flex;
-      flex-direction: column;
+     display: flex;
+     flex-direction: column;
      align-items: center;
      background-image: url(../images/wall.jpg);
 }
@@ -15,7 +15,7 @@ body {
      border:none;
      padding: 0.8em 2em;
      margin-top:1em;
-    cursor: pointer;
+     cursor: pointer;
 }
 
 #labelPaises{
@@ -71,7 +71,7 @@ label{font-size: 1.1em;
 
 /*estilos de respuesta*/
 
-#tableDiv{background: #33435d;
+#tablero{background: #33435d;
 color: white;
 }
 

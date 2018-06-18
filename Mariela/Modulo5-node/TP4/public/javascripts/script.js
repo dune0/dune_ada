@@ -32,7 +32,7 @@ function cargarResultados(respuesta) {
                                               <td>${respuesta.sistema}</td>
                                               <td>${respuesta.editor}</td>
                 </tr>`;
-    $('#table').append(fila);
+    $('#tabla').append(fila);
 }
 
 let respuestas = (JSON.parse(localStorage.getItem("respuestas")) || []);
