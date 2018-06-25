@@ -1,0 +1,15 @@
+#sec {
+	box-sizing: border-box;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-color:  #eaba9d;
+	background-image: url(../images/pingpong.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#pong{
+	font-size: 300px;
+	color:  #ca246a;
+}

@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .container
+    .row
+      .col-12.col-sm-8.offset-sm-2.col-md-6.offset-md-3.mb-4.text-right
+      #post-2.col-12.col-sm-8.offset-sm-2.col-md-6.offset-md-3.mb-4
+        .card.post
+          form#uploadForm(ref='uploadForm' action='http://localhost:3000/upload' method='post' enctype='multipart/form-data')
+           input(type='file' name='sampleFile')
+           input(type='submit' value='Upload')
+  script(type='text/javascript' src='javascripts/jquery.js')
