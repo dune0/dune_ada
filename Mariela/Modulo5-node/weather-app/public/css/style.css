@@ -1,7 +1,12 @@
+/*
+  Styles from this codepen:
+  https://codepen.io/official_naveen/pen/rgknI
+*/
+
 body {
   width: 800px;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .container {
   width: 600px;
