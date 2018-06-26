@@ -27,11 +27,11 @@ app.post('/', function (req, res) {
   let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
   request(url, function (err, response, body) {
     if(err){ //si no reconoce el nombre de una ciudad da el mensaje de error
-      res.render('index', {weather: null, error: 'Error, please try again'});
+      res.render('index', {weather: null, error: 'Error, intente nuevamente'});
     } else {
       let weather = JSON.parse(body)
       if(weather.main == undefined){ //si no tiene datos del clima da el mensaje de error
-        res.render('index', {weather: null, error: 'Error, please try again'});
+        res.render('index', {weather: null, error: 'Error, intente nuevamente'});
       } else {
         let weatherText = `Hacen ${weather.main.temp} °C en ${weather.name}`;
         res.render('index', {weather: weatherText, error: null});

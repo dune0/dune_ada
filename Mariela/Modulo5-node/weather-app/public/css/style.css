@@ -1,12 +1,8 @@
-/*
-  Styles from this codepen:
-  https://codepen.io/official_naveen/pen/rgknI
-*/
-
 body {
   width: 800px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
+  background-image: url(../img/wall.jpg);
 }
 .container {
   width: 600px;
@@ -55,7 +51,7 @@ fieldset {
   border-bottom:1px solid #ddd;
 }
 .ghost-button {
-  background-color: transparent;
+  background-color: salmon;
   border:2px solid #ddd;
   padding:10px 30px;
   width: 100%;
