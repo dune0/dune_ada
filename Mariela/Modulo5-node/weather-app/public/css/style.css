@@ -1,8 +1,12 @@
 body {
-  width: 800px;
+  width: 100%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  background-image: url(../img/wall.jpg);
+  background-image: url(../img/wall2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-color: black;
 }
 .container {
   width: 600px;
@@ -51,6 +55,7 @@ fieldset {
   border-bottom:1px solid #ddd;
 }
 .ghost-button {
+  font-size: 20px;
   background-color: salmon;
   border:2px solid #ddd;
   padding:10px 30px;

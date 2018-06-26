@@ -33,8 +33,9 @@ app.post('/', function (req, res) {
       if(weather.main == undefined){ //si no tiene datos del clima da el mensaje de error
         res.render('index', {weather: null, error: 'Error, intente nuevamente'});
       } else {
-        let weatherText = `Hacen ${weather.main.temp} °C en ${weather.name}`;
+        let weatherText = `Temperatura ${weather.main.temp} °C en ${weather.name}`;
         res.render('index', {weather: weatherText, error: null});
+        console.log(weatherText);
       }
     }
   });
