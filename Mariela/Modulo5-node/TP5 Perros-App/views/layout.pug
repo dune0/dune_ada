@@ -1,0 +1,21 @@
+doctype html
+html
+	block head
+		head
+			title= title
+			meta(charset='UTF-8')
+			link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata")
+			link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous")
+			link(rel='stylesheet', href='/stylesheets/index.css')
+			link(rel='icon' type='image/png' href='/images/doggo.png')
+			script(src='/javascripts/jquery.js')
+			script(src='/javascripts/listener.js')
+	block body
+		body
+			#container
+				header
+					.breadcrumb
+						block breadcrumb
+							a(href="/") Home
+				#containerHome
+					block content

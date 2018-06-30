@@ -1,0 +1,53 @@
+block content
+	aside
+		h2 Filters
+		form#filter
+			label Breed
+			select(name='breed')
+				option(value='') All breeds
+				for breed in breeds
+					option(value=''+ breed) #{breed}
+			label Size
+			select(name='size')
+				option(value='') All sizes
+				option(value='Little') Little
+				option(value='Medium') Medium
+				option(value='Large') Large
+				option(value='Giant') Giant
+			label Age
+			select(name='age')
+				option(value='') All ages
+				option(value='Puppy') Puppy
+				option(value='Doggo') Doggo
+			button(id="submitFilters") Filter
+		a(href='/fav') See fav
+		a(href='/dogs') See all
+	main
+		#title
+			if dogs.length === 0 
+				h1 Sorry, there are no doogos or puppers here :(
+				a(href='/dogs') All dogs
+			else
+				h1 #{title}
+		#content
+			for dog in dogs
+				.item(data-id=dog.id)
+					a(href="dog/" + dog.id)
+						figure(style="background-image:url('/images/"+ dog.image +"')")
+					figcaption
+						p.bold #{dog.breed}
+						p #{dog.size}
+						.captionBottom
+							if dog.fav
+								a(href='/dog/' +dog.id+ '/fav')
+									i(class="favorito fas fa-heart")
+							else
+								a(href='/dog/' +dog.id+ '/fav')
+									i(class="favorito far fa-heart")
+							a(href="/dog/" + dog.id) More
+		if pageCount > 1
+			#pagination
+				if currentPage > 1
+					i(class="fas fa-arrow-circle-left prevPage pageArrow" data-url=prevPageUrl)
+				if currentPage < pageCount
+					i(class="fas fa-arrow-circle-right nextPage pageArrow" data-url=nextPageUrl)

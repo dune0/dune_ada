@@ -1,0 +1,24 @@
+extends layout
+append head
+	link(rel='stylesheet' href='../stylesheets/perro.css')
+append breadcrumb
+	span  > Perro
+block content
+	.singleItem(data-id=dog.id)
+		figure
+			img(src="../images/" + dog.image)
+		figcaption
+			a(href='/') Go back Home
+			p.bold #{dog.breed}
+			p Size: #{dog.size}
+			p Age: #{dog.age}
+			.description
+				h3 Descripción
+				p This baby is super cute, I mean look at him! Don´t you wanna him to be forever in your life?
+			.captionBottom
+				if dog.fav
+					i(class="favorito fas fa-heart")
+					span.favText Delete from fav
+				else
+					i(class="favorito far fa-heart")
+					span.favText Add to fav

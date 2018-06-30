@@ -1,0 +1,192 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/paws.jpg);
+  font: 14px;
+  font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+	display:block;
+}
+
+select {
+	font-family: 'Inconsolata', monospace;
+}
+
+header {
+	padding:10px 20px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #b6b6b6;
+}
+
+.breadcrumb {
+	font-size:20px;
+}
+
+a {
+  color: #380356;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+	margin:20px 0;
+}
+
+#containerHome {
+	display:flex;
+}
+
+aside {
+	width:20%;
+	height:100%;
+	margin: 50px 0 0 10px;
+	padding:20px;
+	background-color: #b6b6b6;
+}
+
+aside h2, aside a {
+	text-align: center;
+}
+
+aside form {
+	margin:20px 0;
+	font-size:18px;
+	font-weight: bold;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+form select {
+	font-size:18px;
+}
+
+form input[type="checkbox"] {
+	margin:5px;
+	font-size:22px;
+}
+
+form button {
+	font-weight: bold;
+	font-size:16px;
+	font-family:Inconsolata;
+	text-align: center;
+	display:block;
+	margin:10px 0;
+	padding:10px;
+	border:0;
+	box-shadow: 0;
+	border-radius: 50px;
+	color: #00463b;
+	background-color:white;
+}
+
+label, button {
+	display:block;
+	margin-top:10px;
+}
+
+aside a {
+	font-weight: bold;
+	font-size:18px;
+	text-align: center;
+	display:block;
+	margin:10px 0;
+	padding:15px;
+	color: #380356;
+	background-color:white;
+}
+
+main {
+	width:80vw;
+}
+
+#title {
+	text-align:center;
+}
+
+#content {
+	margin:0 auto;
+	display:flex;
+	justify-content: center;
+}
+
+.item {
+  width: 300px;
+  height: 400px;
+  margin: 10px 5px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #b6b6b6;
+  overflow: hidden;
+}
+
+.item > a {
+	margin:0;
+	padding:0;
+}
+
+.item figure {
+	height:250px;
+	align-self: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+.item figcaption {
+	height:150px;
+	padding:20px;
+	font-size:24px;
+}
+
+.fa-heart {
+	color:#1a9c15;
+}
+
+figcaption * {
+	margin:5px;
+}
+
+p.bold {
+	height:50px;
+	font-weight: bold;
+}
+
+.captionBottom {
+	display:flex;
+	justify-content: space-between;
+}
+
+.captionBottom i {
+	align-self: center;
+}
+
+#pagination {
+	width:30%;
+	margin:20px auto;
+	font-size:45px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#pagination .pageArrow {
+	color:  #292c40;
+}
+
+@media (max-width: 1024px) {
+	main {
+		flex-direction: column;
+	}
+}
