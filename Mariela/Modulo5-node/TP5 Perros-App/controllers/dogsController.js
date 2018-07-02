@@ -3,7 +3,6 @@ const qs = require('qs');
 
 const self = {};
 
-//funciones auxiliares
 //devuelve la página pedida de un array
 getPage = function(array, currentPage) {
 	const pageSize = 6;
@@ -15,12 +14,11 @@ getPage = function(array, currentPage) {
 	return {page: array.slice(start, end), pageCount: pageCount};
 }
 
-//para ver si req.query vino vacío
 function isEmpty(obj) {
   return !obj || Object.keys(obj).length === 0;
 }
 
-//parsea el query para mostrar los filtros aplicados en la vista
+//parsea el query para mostrar los filtros aplicados en los selects
 function descriptionFromQuery(queryObject) {
 	return Object.values(queryObject).filter(item => item.length > 0).toString().replace(',', ', ');
 }
@@ -61,7 +59,7 @@ self.showAllorFiltered = function(req, res, next) {
 	res.render(req.xhr ? 'alldogs' : 'dogs', responseData);
 }
 
-//renderea la vista individual
+//se muestra el detalle de cada perro
 self.showById = function(req, res, next) {
 	let dog = dogsService.getDog(req.params.id)
 	if (dog) {
