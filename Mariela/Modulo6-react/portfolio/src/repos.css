@@ -1,0 +1,24 @@
+.repos {
+	width: 50%;
+	height: 300px;
+	margin-top: 4%;
+	margin-left: 25%;
+	background-color: #4c5881;
+}
+
+#titulo2{
+	width: 100%;
+	height: 50px;
+	background-color:  #dddddd;
+}
+
+#titulo2 h1{
+	text-align: center;
+	margin-top: 5px;
+}
+
+#desarrollo2 {
+	width: 100%;
+	height: 250px;
+	background-color:  #4c5881;
+}

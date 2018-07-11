@@ -23,6 +23,7 @@ class App extends Component {
          <img src={require('../src/edificio2.png')} alt="edificio2" />
          <figcaption id="pie2"> La madera permitirá contar con un excelente recurso antisísmico dada su flexibilidad y resistencia </figcaption>
         </figure>
+        
       </div>
     );
   }

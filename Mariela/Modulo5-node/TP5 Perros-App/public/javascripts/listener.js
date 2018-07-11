@@ -55,7 +55,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		$(".filterError").remove();
 		if (checkFilters($(this).serializeArray())) {
-			console.log('hay filtros, mando')
+			console.log('hay filtros')
 			let filters = $(this).serialize();
 			$.ajax({
 				url: '/dogs/?' + filters

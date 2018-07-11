@@ -1,0 +1,38 @@
+.skill {
+	width: 50%;
+	height: 300px;
+	margin-top: 10%;
+	margin-left: 25%;
+	background-color: #4c5881;
+}
+
+#titulo{
+	width: 100%;
+	height: 50px;
+	background-color:  #dddddd;
+}
+
+#titulo h1{
+	text-align: center;
+	margin-top: 5px;
+}
+
+#desarrollo {
+	width: 50%;
+	height: 250px;
+	float: left;
+	background-color:  #4c5881;
+}
+
+#desarrollo p{
+	font-size: 13px;
+    text-align: justify;
+    margin-right: 2%;
+}
+
+#desarrolloright {
+	width: 50%;
+	height: 250px;
+	float: left;
+	background-color:  #4c5881;
+}
