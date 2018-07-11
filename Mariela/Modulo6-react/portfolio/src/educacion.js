@@ -11,10 +11,10 @@ class Educacion extends Component {
         		</div>
         		<div id="desarrollo1">
         			<ul>
-                    	<li>Primaria: ECFA</li>
-                    	<li>Secundaria: CENS N° 457</li>
-                    	<li>Terciario: ADA ITW</li>
-                    	<li>Programa 111MIL: Java y Javascript</li>
+                    	<b><li>ADA ITW - Bootcamp for woman</li></b>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    	<b><li>Programa 111MIL: Java y Javascript</li></b>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         			</ul>
         		</div>
         	</div>

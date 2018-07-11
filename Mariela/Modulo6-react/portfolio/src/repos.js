@@ -45,7 +45,7 @@ class Repos extends Component{
                 <div id="desarrollo2">
                     <ul className='reposList'>
                                 {this.state.repos.map(function (el) {
-                                    return <li>{el.name} <a href={el.html_url}>link</a></li>
+                                    return <div><li>{el.name} <a href={el.html_url}target="_blank">Ir al repositorio</a></li></div>
                                 })}
                     </ul>
                 </div>

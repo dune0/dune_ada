@@ -15,9 +15,11 @@ class Skill extends Component {
         		</div>
         		<div id="desarrolloright">
                     <p>Lorem ipsum dolor sit amet</p>
+                    <p>&#9679;</p>
                     <p>Lorem ipsum dolor sit amet</p>
+                    <p>&#9679;</p>
                     <p>Lorem ipsum dolor sit amet</p>
-                    <p>Lorem ipsum dolor sit amet</p>
+                    <p>&#9679;</p>
                     <p>Lorem ipsum dolor sit amet</p>
         		</div>
         	</div>
